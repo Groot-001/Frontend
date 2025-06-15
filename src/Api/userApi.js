@@ -1,7 +1,7 @@
 import axios from 'axios'
 import axiosInstance from './axiosInstance'
 
-const BACKEND_URL = `https://backend-3-e5zd.onrender.com`
+const BACKEND_URL = `https://backend-zk8z.onrender.com`
 
 export const register = async (user) => {
     try {
