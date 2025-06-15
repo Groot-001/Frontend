@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import Swal from "sweetalert2";
-import { getPendingRequests, handleJoinRequest } from "../../api/userApi";
+import { getPendingRequests, handleJoinRequest } from "../../Api/userApi";
 import { useNavigate } from "react-router-dom";
 
 const PendingRequests = () => {

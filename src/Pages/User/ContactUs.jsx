@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";  // for form and error messages
 import { FaArrowLeft } from "react-icons/fa"; // Used for icons
 import { useNavigate } from "react-router-dom";
-import { contactSchema } from '/Campus Collab/Shared/contactSchema'
-import { contact } from "../../api/userApi";
+import  contactSchema  from '../../Validation/contactSchema'
+import { contact } from "../../Api/userApi";
 
 const ContactUs = () => {
     const navigate = useNavigate();

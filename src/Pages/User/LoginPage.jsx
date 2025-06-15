@@ -1,7 +1,7 @@
 import { Formik } from 'formik'
 import * as Yup from 'yup';
 import React, { useState } from 'react';
-import { login } from '../../api/userApi';
+import { login } from '../../Api/userApi';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {

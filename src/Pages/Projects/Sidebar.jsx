@@ -1,6 +1,6 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import { FaHome, FaProjectDiagram, FaCheckCircle, FaTimesCircle, FaPlusCircle, FaSignOutAlt } from "react-icons/fa";
-import { logout } from "../../api/userApi";
+import { logout } from "../../Api/userApi";
 
 const Sidebar = () => {
     const navigate = useNavigate();

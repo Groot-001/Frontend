@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import { createProject } from '../../api/userApi';
+import { createProject } from '../../Api/userApi';
 
 const categoryOptions = [
     "Web Development", "Mobile App Development", "Data Science & Analytics",

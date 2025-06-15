@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getAllProjects, getAppliedProjects, joinProjectRequest } from "../../api/userApi";
+import { getAllProjects, getAppliedProjects, joinProjectRequest } from "../../Api/userApi";
 import Sidebar from "./Sidebar";
 import { FaSearch, FaTimes } from "react-icons/fa";
 import Swal from "sweetalert2";

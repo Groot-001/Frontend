@@ -1,7 +1,7 @@
 // src/pages/ResetPassword.jsx
 import React, { useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { resetPassword } from "../../api/userApi";
+import { resetPassword } from "../../Api/userApi";
 
 const ResetPassword = () => {
     const [searchParams] = useSearchParams();

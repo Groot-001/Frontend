@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAppliedProjects, cancelJoinRequest } from "../../api/userApi";
+import { getAppliedProjects, cancelJoinRequest } from "../../Api/userApi";
 import { FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";

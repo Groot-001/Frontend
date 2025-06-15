@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getAllProjects, joinProjectRequest } from '../../api/userApi';
+import { getAllProjects, joinProjectRequest } from '../../Api/userApi';
 import Swal from 'sweetalert2';
 
 const AllProjects = () => {

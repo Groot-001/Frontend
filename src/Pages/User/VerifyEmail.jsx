@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { verifyEmail } from '../../api/userApi';
+import { verifyEmail } from '../../Api/userApi';
 
 const VerifyEmail = () => {
     const [verification, setVerification] = useState({ status: 'loading', message: '' });

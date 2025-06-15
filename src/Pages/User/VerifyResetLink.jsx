@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { validateResetToken } from "../../api/userApi";
+import { validateResetToken } from "../../Api/userApi";
 
 const VerifyResetLink = () => {
     const [searchParams] = useSearchParams();

@@ -1,7 +1,7 @@
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import React, { useState } from 'react';
-import { forgetpassword } from '../../api/userApi';
+import { forgetpassword } from '../../Api/userApi';
 
 const ForgotPasswordPage = () => {
 
