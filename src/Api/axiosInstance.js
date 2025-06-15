@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://backend-3-e5zd.onrender.com";
 
 const axiosInstance = axios.create({
     baseURL: BACKEND_URL,
